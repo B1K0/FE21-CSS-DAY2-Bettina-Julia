@@ -5,25 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        *{
+            margin: 1%;
+            padding: 1%;
+            color: brown;
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        nav {
+            background-color: grey;
+        }
+
+        nav > div {
+            text-align: center;
+            margin:0 auto;
+        }
+
+        .row {
+            text-align: center;
+        }
+
+        .column {
+            box-sizing: border-box;
+            width: 31.3%;
+            float: left;
+            border: 2px solid black;
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+        }
+
+        .wrapper {
+            background-color: chartreuse;
+            width: 100%;
+            display: inline;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+    }
+    
+         .wrapper:after {
+            content: "";
+            display: table;
+            clear: both;
+    }
+
+        footer {
+            width: 100%;
+            display: block;
+            background-color: green;
+        }
+
+        .column :first-child {
+            margin-left: 0;
+        }
+
+        .column :last-child {
+            margin-right: 0;
+        }
+    </style>
+
 </head>
 <body>
     <header>
         <img src=https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt="Slack Logo">
     </header>
     <nav>
-        <a href="home.html"> Home</a>
-        <a href="Products.html">Products</a>
-        <a href="Services.html">Services</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a> 
+        <div> 
+            <a href="home.html"> Home</a>
+            <a href="Products.html">Products</a>
+            <a href="Services.html">Services</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a> 
+        </div>
     </nav>
-    <div class="row">Features
+    <div class="row">Feature</div>
+    <div class="Wrapper">
         <div class="column">Column One</div>
         <div class="column">Column Two</div>
         <div class="column">Column Three</div>
-      </div>
+        <!--  then magic trick comes here  -->
+<br style="clear: left;" />
+    </div>
     <footer>
         <p>&#169; Copyright 2011</p>   
-    </footer>
+    </footer> -->
 </body>
 </html>
