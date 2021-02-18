@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+* {
+    font-family: 'Happy Monkey', cursive;
+}
+
 .container {
   margin: 0 auto;
   width: 800px;
@@ -41,6 +47,10 @@ li {
 .rating > span {
     color: #F4B400;
     font-size: 25px;
+}
+
+.rating {
+    text-align: center;
 }
 
 footer {
