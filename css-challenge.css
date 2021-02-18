@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Lobster&display=swap');
+
+* {
+    background-color: lightskyblue;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 0;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-color: royalblue; /* sonst nimmt er's nicht */
+    text-align: center;
+    margin: 0 auto;
+    font-size: 200%;
+    padding: 5px;
+}
+
+.wrapper > a {
+    font-family: 'Ballet', cursive;
+    background-color: royalblue; /* sonst nimmt er's nicht */
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header > img {
+    width: 100px;
+}
+
+header > p {
+    color: goldenrod;
+}
+
+.images > img {
+    float: left;
+    width: 50%;
+}
+
+.images > figcaption {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+table {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+
+.footerWrapper {
+    margin: 0 auto;
+    text-align: center;
+    background-color: royalblue;
+}
+
+.footerWrapper > a {
+    background-color: royalblue;
+    color: white;
+}
+
+/* == TEXT IN BILD == */
+#img1 {
+    height: 500px;
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+    background-image: url("https://cdn.pixabay.com/photo/2015/03/27/13/16/cat-694730_960_720.jpg");
+}
+
