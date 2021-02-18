@@ -29,20 +29,21 @@
 
         .row {
             text-align: center;
+            background-color: grey;
         }
 
         .column {
             box-sizing: border-box;
             width: 31.3%;
             float: left;
-            border: 2px solid black;
+            background-color: grey;
             padding-left: 0;
             padding-right: 0;
             text-align: center;
         }
 
         .wrapper {
-            background-color: chartreuse;
+            background-color: grey;
             width: 100%;
             display: inline;
             box-sizing: border-box;
@@ -57,18 +58,13 @@
     }
 
         footer {
-            width: 100%;
+            box-sizing: border-box;
             display: block;
-            background-color: green;
+            background-color: grey;
+            text-align: center;
         }
 
-        .column :first-child {
-            margin-left: 0;
-        }
 
-        .column :last-child {
-            margin-right: 0;
-        }
     </style>
 
 </head>
@@ -90,11 +86,9 @@
         <div class="column">Column One</div>
         <div class="column">Column Two</div>
         <div class="column">Column Three</div>
-        <!--  then magic trick comes here  -->
-<br style="clear: left;" />
     </div>
     <footer>
         <p>&#169; Copyright 2011</p>   
-    </footer> -->
+    </footer>
 </body>
 </html>
