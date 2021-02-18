@@ -1,0 +1,58 @@
+img {
+  width: 50px;
+}
+#face {
+  width: 400px;
+}
+
+#hair1 {
+ position: fixed;
+ left: 50px;
+ top: 10px; 
+ width: 33%;
+}
+
+#eyes2 {
+  position: fixed;
+  left: 130px;
+  top: 220px;
+  width: 15%;
+}
+
+#nose2 {
+  position: fixed;
+  left: 167px;
+  top: 255px;
+  width: 7%;
+}
+
+#mouth2 {
+  position: fixed;
+  left: 130px;
+  top: 350px;
+  width: 15%;
+}
+
+#ears2 {
+  position: fixed;
+  left: -10px;
+  top: 200px;
+  width: 45%;
+}
+
+#moustache {
+  position: fixed;
+  left: 125px;
+  top: 300px;
+  width: 15%;
+  z-index: 999;
+}
+
+#hat {
+  position: fixed;
+  left: 115px;
+  top: -20px;
+  width: 30%;
+  transform: rotate(23deg);
+}
+
